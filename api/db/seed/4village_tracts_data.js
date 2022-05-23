@@ -1,0 +1,61 @@
+const villageTractsList = [
+  {Village_Tracts_ID: 1,Township_ID: 4,Village_Tracts_Code: 'MMR005033028',Village_Tracts_Name: 'မင်းဆင်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 2,Township_ID: 2,Village_Tracts_Code: 'MMR005027028',Village_Tracts_Name: 'ထောက်ကြံ့ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 3,Township_ID: 3,Village_Tracts_Code: 'MMR005007002',Village_Tracts_Name: 'ကိုးထောင်ဘို့ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 4,Township_ID: 1,Village_Tracts_Code: 'MMR005020011',Village_Tracts_Name: 'ချောင်းဝကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 5,Township_ID: 1,Village_Tracts_Code: 'MMR005026048',Village_Tracts_Name: 'တိုက်မွန်းကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 6,Township_ID: 6,Village_Tracts_Code: 'MMR005031010',Village_Tracts_Name: 'ကင်းတပ်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 7,Township_ID: 5,Village_Tracts_Code: 'MMR005012013',Village_Tracts_Name: 'ကြေးမုံကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 8,Township_ID: 7,Village_Tracts_Code: 'MMR005001071',Village_Tracts_Name: 'ကျောက်ဆည်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 9,Township_ID: 8,Village_Tracts_Code: 'MMR005004008',Village_Tracts_Name: 'ရှားတောကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 10,Township_ID: 9,Village_Tracts_Code: 'MMR005030016',Village_Tracts_Name: 'ရွာသာကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 11,Township_ID: 10,Village_Tracts_Code: 'MMR005016040',Village_Tracts_Name: 'ကြပ်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 12,Township_ID: 19,Village_Tracts_Code: 'MMR002005003',Village_Tracts_Name: 'ဘောလခဲကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 13,Township_ID: 19,Village_Tracts_Code: 'MMR002005002',Village_Tracts_Name: 'နန်းဖဲကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 14,Township_ID: 20,Village_Tracts_Code: 'MMR002006001',Village_Tracts_Name: 'ဖားဆောင်းကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 15,Township_ID: 20,Village_Tracts_Code: 'MMR002006002',Village_Tracts_Name: 'ဝမ်အောင်းကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 16,Township_ID: 14,Village_Tracts_Code: 'MMR001001001',Village_Tracts_Name: 'အာလမ်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 17,Township_ID: 15,Village_Tracts_Code: 'MMR001014002',Village_Tracts_Name: 'ဇီးအွန်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 18,Township_ID: 15,Village_Tracts_Code: 'MMR001014004',Village_Tracts_Name: 'ပန်းမတီးကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 19,Township_ID: 14,Village_Tracts_Code: 'MMR001001002',Village_Tracts_Name: 'နောင်နန်းကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 20,Township_ID: 11,Village_Tracts_Code: 'MMR001010002',Village_Tracts_Name: 'ချောင်းဝကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 21,Township_ID: 16,Village_Tracts_Code: 'MMR001017012',Village_Tracts_Name: 'အလီအောင်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 22,Township_ID: 16,Village_Tracts_Code: 'MMR001017008',Village_Tracts_Name: 'အဝိဝမ်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 23,Township_ID: 17,Village_Tracts_Code: 'MMR001007002',Village_Tracts_Name: 'မော်ဟန်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 24,Township_ID: 17,Village_Tracts_Code: 'MMR001007026',Village_Tracts_Name: 'မပြင်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 25,Township_ID: 18,Village_Tracts_Code: 'MMR001008003',Village_Tracts_Name: 'ပင်းခါးကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 26,Township_ID: 18,Village_Tracts_Code: 'MMR001008022',Village_Tracts_Name: 'ပင့်သာကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 27,Township_ID: 12,Village_Tracts_Code: 'MMR001011017',Village_Tracts_Name: 'ရွှေဘုံသာကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 28,Township_ID: 12,Village_Tracts_Code: 'MMR001011037',Village_Tracts_Name: 'ရွှေချောင်းသာကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 29,Township_ID: 13,Village_Tracts_Code: 'MMR001005007',Village_Tracts_Name: 'မံစံကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 30,Township_ID: 13,Village_Tracts_Code: 'MMR001005026',Village_Tracts_Name: 'ဖရဲကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  {Village_Tracts_ID: 31,Township_ID: 21,Village_Tracts_Code: 'MMR002001001',Village_Tracts_Name: 'ညောင်ပင်သာကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 32,Township_ID: 22,Village_Tracts_Code: 'MMR003001001',Village_Tracts_Name: 'သရက်ကုန်းကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 33,Township_ID: 23,Village_Tracts_Code: 'MMR003004001',Village_Tracts_Name: 'တောင်အင်းကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 34,Township_ID: 24,Village_Tracts_Code: 'MMR003002001',Village_Tracts_Name: 'ဟဲဟိုးကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 35,Township_ID: 25,Village_Tracts_Code: 'MMR004001001',Village_Tracts_Name: 'မြို့သစ်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 36,Township_ID: 26,Village_Tracts_Code: 'MMR004003001',Village_Tracts_Name: 'မြင်သာကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 37,Township_ID: 27,Village_Tracts_Code: 'MMR004002001',Village_Tracts_Name: 'မြို့ကုန်းကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 38,Township_ID: 28,Village_Tracts_Code: 'MMR006001001',Village_Tracts_Name: 'သပြေလှကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 39,Township_ID: 29,Village_Tracts_Code: 'MMR006003001',Village_Tracts_Name: 'အင်ခိုင်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 40,Township_ID: 30,Village_Tracts_Code: 'MMR006002001',Village_Tracts_Name: 'ဟန်းကောကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 41,Township_ID: 31,Village_Tracts_Code: 'MMR007001001',Village_Tracts_Name: 'မန်ကျီကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 42,Township_ID: 32,Village_Tracts_Code: 'MMR007002001',Village_Tracts_Name: 'ရွှေညောင်ပင်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 43,Township_ID: 33,Village_Tracts_Code: 'MMR008001001',Village_Tracts_Name: 'ဘုရားဖြူကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 44,Township_ID: 34,Village_Tracts_Code: 'MMR008002001',Village_Tracts_Name: 'ငွေတောင်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 45,Township_ID: 35,Village_Tracts_Code: 'MMR009001001',Village_Tracts_Name: 'ကုန်းသာကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 46,Township_ID: 36,Village_Tracts_Code: 'MMR009002001',Village_Tracts_Name: 'ကြာအင်းကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 47,Township_ID: 37,Village_Tracts_Code: 'MMR009003001',Village_Tracts_Name: 'ဆင်ကူးကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 48,Township_ID: 38,Village_Tracts_Code: 'MMR001003001',Village_Tracts_Name: 'ရေတံခွန်ကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 49,Township_ID: 39,Village_Tracts_Code: 'MMR001001001',Village_Tracts_Name: 'သာယာကုန်းကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+  // {Village_Tracts_ID: 50,Township_ID: 40,Village_Tracts_Code: 'MMR001002001',Village_Tracts_Name: 'ဝဲကြီးကျေးရွာအုပ်စု',Created_By: 'jkl',Updated_By: 'nnm',Status:'Active',Remark:''},
+
+]
+exports.seed = function(knex) {
+  // Deletes ALL existing entries
+  return knex('village_tracts').del()
+    .then(function () {
+      // Inserts seed entries
+      return knex('village_tracts').insert(villageTractsList);
+    });
+};
